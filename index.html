@@ -1,1 +1,2421 @@
-test
+<!DOCTYPE html>
+<html lang="de" >
+<head>
+<meta name="viewport" id="Viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1">
+<link rel="preconnect" href="https://trck.vkf-renzel.com" />
+<link rel="preconnect" href="//app.usercentrics.eu">
+<link rel="preconnect" href="//api.usercentrics.eu">
+<link rel="preload" href="//web.cmp.usercentrics.eu/ui/loader.js" as="script">
+<meta data-privacy-proxy-server="/uc-privacy-proxy">
+<link rel="preload" href="/out/ra-theme/fonts/icons/1753702644/ra-icon.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/out/ra-theme/fonts/open-sans/1753702644/open-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/out/ra-theme/fonts/open-sans/1753702644/open-sans-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/out/ra-theme/fonts/open-sans/1753702644/open-sans-italic.woff2" as="font" type="font/woff2" crossorigin>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> Prevact - Preventive Action 
+</title>
+<meta name="description" content="präventive Lösungen zur Verhinderung von Ressourcenverschwendung">
+<meta name="keywords" content="vidar, dispenser, digital, hygienisch, smart, verpackungslos, nachhaltig, mehrweg">
+<meta name="title" content="Prevact - Preventive Action ">
+<meta property="og:site_name" content="Prevact GmbH">
+<meta property="og:title" content="Prevact - Preventive Action ">
+<meta property="og:description" content="präventive Lösungen zur Verhinderung von Ressourcenverschwendung">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://prevact.earth/out/prevact-theme/img/logo.png">
+<meta property="og:url" content="https://prevact.earth/">
+<link rel="canonical" href="https://prevact.earth/">
+<link rel="manifest" href="https://prevact.earth/out/prevact-theme/manifest.json" crossorigin="use-credentials">
+<link rel="apple-touch-icon" sizes="180x180" href="https://prevact.earth/out/prevact-theme/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://prevact.earth/out/prevact-theme/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://prevact.earth/out/prevact-theme/img/favicons/favicon-32x32.png">
+<meta name="msapplication-TileColor" content="#059f00">
+<meta name="msapplication-TileImage" content="https://prevact.earth/out/prevact-theme/img/favicons/mstile-150x150.png">
+<meta name="theme-color" content="#059f00">
+<script type="text/javascript">
+		 if(!["1","2","3","4"].includes(window.localStorage.getItem("emos_privacy"))) { window.localStorage.setItem("emos_privacy", "4"); }
+		 </script>
+<link rel="stylesheet" type="text/css" href="https://prevact.earth/out/ra-theme/src/css/dcc2b281fab23ef3905283631c3a3506/libs.min.css" />
+<link rel="stylesheet" type="text/css" href="https://prevact.earth/out/prevact-theme/src/css/374d7814f7b7accde8304168263dbf8a/styles.min.css" />
+<link rel="stylesheet" type="text/css" href="https://prevact.earth/out/prevact-theme/src/css/b69f94f7c3b032f54cc01c722d11ccc2/dark-mode.min.css" />
+<link rel="stylesheet" type="text/css" href="https://prevact.earth/out/prevact-theme/src/css/d64a497dcc34915d1c4ef0e57a7a86f6/rasearchsuggester.css" />
+<noscript><style type="text/css">.ra-counter-value { visibility: visible !important; }</style></noscript>
+<script>
+            window._currency = 'EUR';
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+        </script>
+<script>
+                    
+        gtag("consent", "default", {
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            wait_for_update: 500
+        });
+            
+        gtag("set", "ads_data_redaction", true);
+    </script>
+<script src="https://prevact.earth/out/ra-theme/src/js/1753702644/ra-uc.min.js"></script>
+<script>
+            window.addEventListener("raDPSChange", function (e) {
+                if ((e.detail.event === "consent_status")) {
+                    let doReload = false;
+                    if (e.detail["econda Analytics"] === false)
+                    {
+                        try {localStorage.setItem('emos_privacy','4')} catch (e) {console.error('Could not set econda privacy mode.')}
+                    }
+                    if (e.detail["econda Analytics"] === true)
+                    {
+                        try {localStorage.setItem('emos_privacy','3')} catch (e) {console.error('Could not set econda privacy mode.')};
+                    }
+                                                            if (e.detail["Amazon Pay"] === false)
+                    {
+                        if(Cookies.get('_ra_amazon_pay_allow')) {
+                            doReload = true;
+                        }
+                        Cookies.set('_ra_amazon_pay_allow', '', { expires: -1 });
+                    }
+                    if (e.detail["Amazon Pay"] === true)
+                    {
+                        if(!Cookies.get('_ra_amazon_pay_allow')) {
+                            doReload = true;
+                        }
+                        Cookies.set('_ra_amazon_pay_allow', '1', { expires: 365 });
+                    }
+                                        ['Vimeo', 'YouTube Video', 'Google Maps', 'Yandex', 'OpenStreetMap'].forEach(function(item) {
+                        if(e.detail[item] === false) {
+                            disableUCIframe(item);
+                        }
+                        if(e.detail[item] === true) {
+                            enableUCIframe(item);
+                        }
+                    })
+                    if(doReload) {
+                        window.location.reload();
+                    }
+                }
+            });
+
+            window.addEventListener('raUCError', function () {
+                ['Vimeo', 'YouTube Video', 'Google Maps', 'Yandex', 'OpenStreetMap'].forEach(function(item) {
+                    errorUCIframe(item);
+                });
+            })
+
+            window.isUCError = false;
+
+            function handleUCError() {
+                setTimeout(function() {
+                    window.dispatchEvent(new Event('raUCError'));
+                    window.isUCError = true;
+                }, 500);
+            }
+
+            const ra_consent_translation = {
+                "CONSENT_HEADLINE" : "Wir benötigen Ihre Zustimmung für %s",
+                "CONSENT_TEXT_PLACEHOLDER" : "Wir verwenden einen Service eines Drittanbieters, %s. Dieser Service kann Daten zu Ihren Aktivitäten sammeln. Bitte lesen Sie die Details durch und stimmen Sie der Nutzung des Service zu, um diesen Inhalt anzuzeigen.",
+                "CONSENT_BTN" : "Akzeptieren",
+                "MORE_INFO_BTN" : "Mehr Informationen",
+                "UC_FAILED" : "Dieser Inhalt vom Dienst %s kann aufgrund von individuellen Browser-Einstellungen nicht geladen werden. Ggf. liegt das an einem installierten Werbeblocker. Bitte prüfen Sie Ihre AddOns / Browser-Erweiterungen oder sprechen Ihre IT an."
+            };
+        </script>
+<script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="6JDGl2d28epwWp" async onerror="handleUCError();"></script>
+</head>
+  
+<body class="cl-start dark-mode dark-mode-page hide-shop-elements compact-menu hasTopBar">
+<script>("#a-only-view"===location.hash||void 0!==window.top&&void 0!==window.top.location&&void 0!==window.top.location.pathname&&window.self!==window.top&&0===window.top.location.pathname.indexOf("/epaper/"))&&document.body.classList.add("a-only-view");</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Prevact GmbH","url":"https://prevact.earth/","logo":"https://prevact.earth/out/prevact-theme/img/logo.png","address":{"@type":"PostalAddress","streetAddress":"","postalCode":"","addressLocality":"","telephone":"","faxNumber":"","email":"shop@prevact.earth"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","url":"https://prevact.earth/","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://prevact.earth/index.php?cl=rasearch&searchparam={search_term_string}"},"query-input":"required name=search_term_string"}}
+</script>
+<div id="header-underlay" class="header-underlay-inline-menu compact-menu"></div>
+<header id="header" class="">
+<div id="topbar" class="d-none d-lg-block dark">
+<div class="container-fluid">
+<div>
+<p style="width:88%;text-align: center;padding-left: 145px;"><i class="ra-icon nature"></i> &nbsp; Unverpackt &nbsp; <i class="ra-icon nature"></i> &nbsp; Automatisiert &nbsp; <i class="ra-icon nature"></i> &nbsp; Für alle &nbsp; <i class="ra-icon nature"></i></p>
+</div>
+<div class="btn-group languages-menu">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+<i class="flag-icon flag-icon-de"></i>
+Deutsch
+</button>
+<ul class="dropdown-menu dropdown-menu-right" role="menu" id="language-selection">
+<li class="active">
+<a class="flag de" title="Deutsch"
+href="https://prevact.earth/index.php?cl=start" hreflang="de" onclick="econdaMarker('topbar/language/de');">
+<i class="flag-icon flag-icon-de"></i> Deutsch
+</a>
+</li>
+<li>
+<a class="flag gb" title="English"
+href="https://prevact.earth/index.php?cl=start&amp;lang=1" hreflang="gb" onclick="econdaMarker('topbar/language/gb');">
+<i class="flag-icon flag-icon-gb"></i> English
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="topbar" class="d-none d-md-block d-lg-none  dark">
+<div class="container-fluid">
+<div class="btn-group languages-menu">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+<i class="flag-icon flag-icon-de"></i>
+Deutsch
+</button>
+<ul class="dropdown-menu dropdown-menu-right" role="menu" id="language-selection">
+<li class="active">
+<a class="flag de" title="Deutsch"
+href="https://prevact.earth/index.php?cl=start" hreflang="de" onclick="econdaMarker('topbar/language/de');">
+<i class="flag-icon flag-icon-de"></i> Deutsch
+</a>
+</li>
+<li>
+<a class="flag gb" title="English"
+href="https://prevact.earth/index.php?cl=start&amp;lang=1" hreflang="gb" onclick="econdaMarker('topbar/language/gb');">
+<i class="flag-icon flag-icon-gb"></i> English
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="header-box hideElements">
+<div class="row">
+<div class="col-6 col-md-3 logo-col ">
+<a href="https://prevact.earth/" title="Prevact GmbH">
+<img src="https://prevact.earth/out/prevact-theme/img/logo.png" alt="Prevact GmbH" class="img-fluid" id="main-logo" data-normal-logo="https://prevact.earth/out/prevact-theme/img/logo.png" data-dark-logo="https://prevact.earth/out/prevact-theme/img/logo_dark.png">
+</a>
+</div>
+<div class="col col-md-9">
+<div class="">
+<nav id="mainnav" class="navbar navbar-expand-md compact-menu" role="navigation">
+<div class="container-fluid button-container">
+<div class="button-container">
+<button type="button" class="navbar-toggler main-menu-toggler d-block d-md-none col-2 hideElementsmenu">
+<i class="ra-icon menu d-block"></i>
+<span class="d-block">Menü</span>
+</button>
+<div class="collapse navbar-collapse" id="navigation-outer">
+<ul class="navbar-nav">
+<li class="navigation nav-side-navigation left">
+<i class="ra-icon chevron-left"></i>
+</li>
+</ul>
+<ul class="navbar-nav navbar-type-selector navigation-inline-nav" data-type="inline">
+<li>
+<a href="#vidar" target="_self">
+<i class="ra-icon vegan"></i>
+<span>
+Vidar
+</span>
+</a>
+</li>
+<li>
+<a href="#fakten" target="_self">
+<i class="ra-icon info"></i>
+<span>
+Fakten
+</span>
+</a>
+</li>
+<li>
+<a href="#impact" target="_self">
+<i class="ra-icon carreer"></i>
+<span>
+Impact
+</span>
+</a>
+</li>
+<li>
+<a href="#ueberuns" target="_self">
+<i class="ra-icon usergroup"></i>
+<span>
+Über uns
+</span>
+</a>
+</li>
+<li>
+<a href="/shop" class="flyout-trigger" ramenu-type="content" ramenu-id="e12562bc2c425ca1ee52c8c96f8d080e">
+<i class="ra-icon basket-empty t-confirm"></i>
+<span>
+SHOP
+</span>
+</a>
+</li>
+<li>
+<a href="#kontaktformular" target="_self">
+<i class="ra-icon chat"></i>
+<span>
+Kontakt
+</span>
+</a>
+</li>
+</ul>
+<ul class="navbar-nav">
+<li class="navigation nav-side-navigation right">
+<i class="ra-icon chevron-right"></i>
+</li>
+</ul>                        
+</div>
+</div>
+</div>
+</nav>
+</div>
+<div class="flyout-menu-app flyout-menu-compact" v-cloak>
+<div class="menu-outer">
+<div class="menu" v-if="columnData.columnOne && columnData.columnOne.length > 0">
+<div class="row">
+<div class="col-12" id="raMenu-ColumnOne">
+<div v-if="loaders.loaderOne">
+<div class="spinner loading-anim">
+<div class="rect1"></div>
+<div class="rect2"></div>
+<div class="rect3"></div>
+<div class="rect4"></div>
+<div class="rect5"></div>
+</div>
+</div>
+<div class="list-outer" v-if="columnData.columnOne">
+<div data-simplebar>
+<ul class="column-menu">
+<template v-if="'all-products' === infoBox.type">
+</template>
+<li data-next-id="Two" :data-oxid="v.oxid" :data-has-sub="v.has_sub" v-for="v, k in columnData.columnOne">
+<a href="#" :href="v.link" @click="null !== v.econdamarker ? econdaMarker(v.econdamarker) : ''">
+<div class="row">
+<div class="col-11">
+<span v-html="v.title"></span>
+</div>
+<div class="col-1">
+<i class="ra-icon chevron-right" v-if="v.has_sub"></i>
+</div>
+</div>
+</a>
+</li>
+<template v-if="'all-products' === infoBox.type">
+</template>
+</ul>
+</div>
+</div>
+</div>                </div>
+<div class="menu-inner" v-if="columnData.columnTwo && columnData.columnTwo.length > 0">
+<div class="col-12" id="raMenu-ColumnTwo">
+<div v-if="loaders.loaderTwo">
+<div class="spinner loading-anim">
+<div class="rect1"></div>
+<div class="rect2"></div>
+<div class="rect3"></div>
+<div class="rect4"></div>
+<div class="rect5"></div>
+</div>
+</div>
+<div class="list-outer" v-if="columnData.columnTwo">
+<div data-simplebar>
+<ul class="column-menu">
+<li data-next-id="Three" :data-oxid="v.oxid" :data-has-sub="v.has_sub" v-for="v, k in columnData.columnTwo">
+<a href="#" :href="v.link" @click="null !== v.econdamarker ? econdaMarker(v.econdamarker) : ''">
+<div class="row">
+<div class="col-11">
+<span v-html="v.title"></span>
+</div>
+<div class="col-1">
+<i class="ra-icon chevron-right" v-if="v.has_sub"></i>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="menu-inner" v-if="columnData.columnThree && columnData.columnThree.length > 0">
+<div class="col-12" id="raMenu-ColumnThree">
+<div v-if="loaders.loaderThree">
+<div class="spinner loading-anim">
+<div class="rect1"></div>
+<div class="rect2"></div>
+<div class="rect3"></div>
+<div class="rect4"></div>
+<div class="rect5"></div>
+</div>
+</div>
+<div class="list-outer" v-if="columnData.columnThree">
+<div data-simplebar>
+<ul class="column-menu">
+<li data-next-id="Four" :data-oxid="v.oxid" :data-has-sub="v.has_sub" v-for="v, k in columnData.columnThree">
+<a href="#" :href="v.link" @click="null !== v.econdamarker ? econdaMarker(v.econdamarker) : ''">
+<div class="row">
+<div class="col-11">
+<span v-html="v.title"></span>
+</div>
+<div class="col-1">
+<i class="ra-icon chevron-right" v-if="v.has_sub"></i>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>                    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<script>
+    var togglePopUp = false;
+    var toggleFlyOut = false;
+</script>            
+<link rel="stylesheet" href="/out/ra-theme/src/css/ie-warning.min.css" media="print" onload="if(window.document.documentMode) this.media='all'" />
+<div class="ie-warning">
+<div class="ie-warning-msg">
+<p class="ie-warning-header" data-content="Warnung!"></p>
+<p data-content="Sie nutzen einen veralteten und daher unsicheren Browser. Das führt bei der Nutzung unseres Shops zu Einschränkungen."></p>
+</div>
+</div>
+<div class="main-container container-fluid darkFooter hideElements compact-menu">
+<div class="main-row">
+<div id="wrapper">
+<div class="container-fluid no-padding">
+<div class="underdog">
+<div class="row">
+</div>
+<div class="content-box">
+<div class="row">
+<div class="col-12 page">
+<div id="content">
+<div class="cms-elements">
+<div class="row d-none d-lg-flex hasBgVideo full-width-bg t-white"style='margin-top: 0rem; padding-top: 9rem; padding-bottom: 9rem; min-height: 0;' data-lazy-bg-img="/cdn/xxl/videos/c148f6e832c183bd/08-0010-1PrevactBannerv2-optimiert2.mp4"><div class="videoBgContainer"><video class="bg-video center" preload="auto" playsinline autoplay loop muted defaultMuted disablePictureInPicture poster="/cdn/master/videos/c148f6e832c183bd/thumb1.jpg" type="video/mp4"><source type="video/mp4" src="/cdn/master/videos/c148f6e832c183bd/08-0010-1PrevactBannerv2-optimiert2.mp4"></source></video></div><div class="bg-layer" style="opacity: 0.45";></div>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 col-lg-6 box-text  bg-lightgrey-o50"
+style=" padding-left: 10rem!important;padding-right: 10rem!important;padding-top: 6rem!important;  margin-left: auto; margin-right: auto;">
+<div>
+<span>
+<div style="text-align: center;"><br /><br /><img width="80%" alt="Vidar - Die smarte Abfüllstation" title="Vidar - Die smarte Abfüllstation" src="https://prevact.earth/cdn/xl/images/icons/9d09d44a6c9af4cd/Vidar-White-Logo-cut.png" /></div><h2 style="text-align: center;"><span style="font-size:3.2rem;"><span class="t-white">der smarte </span>Dispenser</span></h2><p style="text-align: center;"><span style="font-size:1.8rem;"><span class="t-white">f&uuml;r weniger Verpackungsm&uuml;ll</span></span><br /><br /><a class="btn btn-highlight" target="_self" href="https://prevact.earth/smart-dispenser-vidar-10-0569-1.html">Jetzt bestellen</a></p>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6 box-text  bg-lightgrey-o50"
+style=" padding-left: 10rem!important;  margin-left: auto; margin-right: auto;">
+<div>
+<span>
+<div style="text-align: left;">
+<img data-ra-src="/cdn/lg/images/b50e9c2929a4bee0/Vidar-Dispenser-Header.png" title="Vidar-Dispenser-Header" alt="Vidar-Dispenser-Header" class="img-fluid pointer-events-none ra-lazy-img" style="margin-bottom: 1rem;">
+</div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-lg-none hasBgVideo full-width-bg t-white"style='margin-top: 0rem; padding-top: 0rem; min-height: 0;' data-lazy-bg-img="/cdn/xxl/videos/c148f6e832c183bd/08-0010-1PrevactBannerv2-optimiert2.mp4"><div class="videoBgContainer"><video class="bg-video bottom center" preload="auto" playsinline autoplay loop muted defaultMuted disablePictureInPicture poster="/cdn/master/videos/c148f6e832c183bd/thumb1.jpg" type="video/mp4"><source type="video/mp4" src="/cdn/master/videos/c148f6e832c183bd/08-0010-1PrevactBannerv2-optimiert2.mp4"></source></video></div><div class="bg-layer" style="opacity: 0.3";></div>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+style="   margin-left: auto; margin-right: auto;">
+<div>
+<span>
+<div style="text-align: left;">
+<img data-ra-src="/cdn/xl/images/b50e9c2929a4bee0/Vidar-Dispenser-Header.png" title="Vidar-Dispenser-Header" alt="Vidar-Dispenser-Header" class="img-fluid pointer-events-none ra-lazy-img" style="margin-bottom: 1rem;">
+</div>
+<div style="text-align: center;"><img width="60%" alt="Vidar - Die smarte Abfüllstation" title="Vidar - Die smarte Abfüllstation" src="https://prevact.earth/cdn/xl/images/icons/9d09d44a6c9af4cd/Vidar-White-Logo-cut.png" /></div><h2 style="text-align: center;"><span style="font-size:3.2rem;"><span class="t-white">der smarte </span>Dispenser</span></h2><p style="text-align: center;"><span style="font-size:1.8rem;"><span class="t-white">f&uuml;r weniger Verpackungsm&uuml;ll</span></span><br /><br /><span style="font-size:1.6rem;"><a class="btn btn-highlight" target="_self" href="/shop/">Jetzt bestellen</a></span></p>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"style='margin-top: 0rem; padding-top: 3rem; padding-bottom: 0rem; min-height: 0;'>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<div style="text-align: center;"><strong><span class="t-lightgrey"><span class="t-lightgrey-o"><span class="t-darkgrey"><span class="t-border"><span style="font-size:2.4rem;">GALERIE</span></span></span></span></span></strong></div>
+</span>
+</div>
+</div>
+</div>
+<div class="row d-none d-sm-flex full-width-bg"style='margin-top: 0rem; padding-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12"
+>
+<div class="cms-gallery cms-gallery-carousel cms-slider chevrons-outside" data-main-limit="3">
+<div class="cms-gallery-item cms-slider-item mobile-2" style="flex-basis: 32.333333333333%;">
+<div style="height: 250px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(1, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/88cf160600f233b4/vlcsnap-2023-03-21-14h15m45s302.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-2" style="flex-basis: 32.333333333333%;">
+<div style="height: 250px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(2, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/1ec14f790f307e33/MG0299.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-2" style="flex-basis: 32.333333333333%;">
+<div style="height: 250px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(3, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/2b1e771f930b138c/MG0323.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-2" style="flex-basis: 32.333333333333%;">
+<div style="height: 250px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(4, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/a1797013a8ed0a3d/MG0353neu.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-2" style="flex-basis: 32.333333333333%;">
+<div style="height: 250px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(5, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/05ff666975380ab4/MG0283.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-2" style="flex-basis: 32.333333333333%;">
+<div style="height: 250px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(6, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/c3c415d8b006fe17/VidarDispenserjpg.jpg" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-slider-left outside">
+<i class="ra-icon chevron-left" onclick="autoSlide(0)"></i>
+</div>
+<div class="cms-slider-right outside">
+<i class="ra-icon chevron-right"></i>
+</div>
+<div class="cms-slider-indicators hidden"></div>
+</div>
+<div class="cms-gallery-lightbox modal" role="dialog">
+<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<div class="cms-gallery-lightbox-close">
+<i class="ra-icon cross" onclick="closeGalleryLightbox();"></i>
+</div>
+<div class="cms-slider" data-main-limit="1">
+<div class="cms-slider-item" data-id="1">
+<img data-ra-src="/cdn/xl/images/misc/88cf160600f233b4/vlcsnap-2023-03-21-14h15m45s302.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="2">
+<img data-ra-src="/cdn/xl/images/misc/1ec14f790f307e33/MG0299.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="3">
+<img data-ra-src="/cdn/xl/images/misc/2b1e771f930b138c/MG0323.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="4">
+<img data-ra-src="/cdn/xl/images/misc/a1797013a8ed0a3d/MG0353neu.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="5">
+<img data-ra-src="/cdn/xl/images/misc/05ff666975380ab4/MG0283.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="6">
+<img data-ra-src="/cdn/xl/images/misc/c3c415d8b006fe17/VidarDispenserjpg.jpg" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-left">
+<i class="ra-icon chevron-left"></i>
+</div>
+<div class="cms-slider-right">
+<i class="ra-icon chevron-right"></i>
+</div>
+<div class="cms-slider-indicators hidden"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-flex d-sm-none full-width-bg"style=''>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12"
+>
+<div class="cms-gallery cms-gallery-carousel cms-slider chevrons-outside" data-main-limit="1" data-autoSlide="true" data-interval="2000">
+<div class="cms-gallery-item cms-slider-item mobile-1" style="flex-basis: 99%;">
+<div style="height: 150px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(1, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/88cf160600f233b4/vlcsnap-2023-03-21-14h15m45s302.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-1" style="flex-basis: 99%;">
+<div style="height: 150px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(2, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/1ec14f790f307e33/MG0299.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-1" style="flex-basis: 99%;">
+<div style="height: 150px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(3, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/2b1e771f930b138c/MG0323.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-1" style="flex-basis: 99%;">
+<div style="height: 150px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(4, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/a1797013a8ed0a3d/MG0353neu.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-1" style="flex-basis: 99%;">
+<div style="height: 150px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(5, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/05ff666975380ab4/MG0283.png" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-gallery-item cms-slider-item mobile-1" style="flex-basis: 99%;">
+<div style="height: 150px;">
+<div class="cms-gallery-item-layer" onclick="openGalleryLightbox(6, false);"></div>
+<img data-ra-src="/cdn/xl/images/misc/c3c415d8b006fe17/VidarDispenserjpg.jpg" class="image-fit cms-gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+</div>
+<div class="cms-slider-left outside display-none">
+<i class="ra-icon chevron-left" onclick="autoSlide(2000)"></i>
+</div>
+<div class="cms-slider-right outside display-none">
+<i class="ra-icon chevron-right"></i>
+</div>
+<div class="cms-slider-indicators hidden"></div>
+</div>
+<div class="cms-gallery-lightbox modal" role="dialog">
+<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<div class="cms-gallery-lightbox-close">
+<i class="ra-icon cross" onclick="closeGalleryLightbox();"></i>
+</div>
+<div class="cms-slider" data-main-limit="1">
+<div class="cms-slider-item" data-id="1">
+<img data-ra-src="/cdn/xl/images/misc/88cf160600f233b4/vlcsnap-2023-03-21-14h15m45s302.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="2">
+<img data-ra-src="/cdn/xl/images/misc/1ec14f790f307e33/MG0299.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="3">
+<img data-ra-src="/cdn/xl/images/misc/2b1e771f930b138c/MG0323.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="4">
+<img data-ra-src="/cdn/xl/images/misc/a1797013a8ed0a3d/MG0353neu.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="5">
+<img data-ra-src="/cdn/xl/images/misc/05ff666975380ab4/MG0283.png" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-item" data-id="6">
+<img data-ra-src="/cdn/xl/images/misc/c3c415d8b006fe17/VidarDispenserjpg.jpg" class="img-fluid gallery-item-image ra-lazy-img" alt="Dispenser VIDAR" />
+</div>
+<div class="cms-slider-left">
+<i class="ra-icon chevron-left"></i>
+</div>
+<div class="cms-slider-right">
+<i class="ra-icon chevron-right"></i>
+</div>
+<div class="cms-slider-indicators hidden"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 2rem; min-height: 0rem;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<h2 style="text-align: center;"><span style="font-size:3.2rem;"><strong><span class="t-darkgrey">M&Ouml;GLICHE VARIANTEN</span></strong></span></h2>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-none d-lg-flex  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-8 box-text t-darkgrey "
+style="display: flex; align-items: middle;   margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<div style="text-align: justify;"><span class="t-darkgrey-o"><span style="font-size:2.8rem;"><strong>Stand-Alone</strong></span><br /><br /><span style="font-size:1.8rem;">Die Modularit&auml;t unserer Vidar-Dispenser er&ouml;ffnet Ihnen unz&auml;hlige M&ouml;glichkeiten.<br /><br />Sie k&ouml;nnen sie individuell an Ihre Bed&uuml;rfnisse anpassen, sei es in der Gastronomie, im Einzelhandel oder in anderen Branchen.<br /><br />M&ouml;chten Sie mehrere Dispenser nebeneinander platzieren oder lieber einzeln nutzen? Kein Problem. Unsere innovativen Module lassen sich nahtlos kombinieren, um die bestm&ouml;gliche L&ouml;sung f&uuml;r Ihre Anforderungen zu schaffen.</span></span></div>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-12 col-lg-4 box-image t-darkgrey  image-middle" style="display: flex; align-items: above; background-image: url(''); background-position: ;   margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/xl/images/b00015fa45334482/Vidar-Module-Transparent.png" alt="Vidar-Module-Transparent" title="Vidar-Module-Transparent">
+</div>
+</div>
+</div>
+</div>
+<div class="row d-lg-none  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-4 box-image t-darkgrey  image-middle" style="display: flex; align-items: above; background-image: url(''); background-position: ;  "  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/xl/images/5a45b71df99f7ea6/Vidar-Module-Transparent-Header.png" alt="Vidar-Module-Transparent-Header" title="Vidar-Module-Transparent-Header">
+</div>
+<div class="col-12 col-md-12 col-lg-8 box-text t-darkgrey "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<span class="t-darkgrey-o"><strong><span style="font-size:2.8rem;">Stand-Alone</span></strong></span><div style="text-align: justify;"><br /><span class="t-darkgrey-o"><span style="font-size:1.8rem;">Die Modularit&auml;t unserer Vidar-Dispenser er&ouml;ffnet Ihnen unz&auml;hlige M&ouml;glichkeiten.<br /><br />Sie k&ouml;nnen sie individuell an Ihre Bed&uuml;rfnisse anpassen, sei es in der Gastronomie, im Einzelhandel oder in anderen Branchen.<br /><br />M&ouml;chten Sie mehrere Dispenser nebeneinander platzieren oder lieber einzeln nutzen? Kein Problem. Unsere innovativen Module lassen sich nahtlos kombinieren, um die bestm&ouml;gliche L&ouml;sung f&uuml;r Ihre Anforderungen zu schaffen.</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-lg-none  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 0rem; padding-bottom: 1rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12  t-darkgrey "
+>
+<hr>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-bottom: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-4 col-lg-4 box-image t-darkgrey  image-middle" style="display: flex; align-items: above; background-image: url(''); background-position: ;   margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/lg/images/777a0d59a4df0655/Vidar-System-Transparent.png" alt="Vidar-System-Transparent" title="Vidar-System-Transparent">
+</div>
+<div class="col-12 col-md-8 col-lg-8 box-text t-darkgrey "
+style="display: flex; align-items: middle;   margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<span class="t-darkgrey-o"><strong><span style="font-size:2.8rem;">Regalsystem</span></strong></span><div style="text-align: justify;"><br /><span class="t-darkgrey-o"><span style="font-size:1.8rem;">Unser ma&szlig;geschneidertes Regalsystem f&uuml;r Vidar-Dispenser erm&ouml;glicht es, Ihre Produkte zu pr&auml;sentieren und gleichzeitig den Zugang zu den Dispensern zu vereinfachen.<br /><br />Egal, ob Sie die Dispenser in Ihrem Supermarkt, im Fitnessstudio oder im Kino einsetzen m&ouml;chten - wir passen das Regalsystem genau nach Ihren Anforderungen an.<br /><br />Von der Gr&ouml;&szlig;e des Regals bis zur Anordnung der Dispenser - alles wird nach Ihren Vorgaben gestaltet.</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"style=' padding-top: 2rem; min-height: 0;'>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+style="   margin-left: auto; margin-right: auto;">
+<div>
+<span>
+<h2 style="text-align: center;"><span class="t-white"><span style="font-size:3.2rem;">WAS ZEICHNET VIDAR AUS?</span></span></h2>
+</span>
+</div>
+</div>
+</div>
+<div class="row"style=' min-height: 0;'>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span style="font-size:2.4rem;"><span class="t-white">GRAMMGENAU</span></span></h2><div style="text-align: center;"><span style="font-size:1.8rem;"><span class="t-border">einfache Eingabe am Ger&auml;t durch Drehregler f&uuml;r kundengerechten Bedarf</span></span></div>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span style="font-size:2.4rem;"><span class="t-white">DIGITAL</span></span></h2><div style="text-align: center;"><span style="font-size:1.8rem;"><span class="t-border">automatische Aktualisierung von Preis und Gewicht</span></span></div>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span style="font-size:2.4rem;"><font color="#ffffff">FLEXIBEL</font></span></h2><div style="text-align: center;"><span style="font-size:1.8rem;"><span class="t-border">jedes Kundenbeh&auml;ltnis kann verwendet werden</span></span></div>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span style="font-size:2.4rem;"><span class="t-white">HYGIENISCH</span></span></h2><div style="text-align: center;"><span style="font-size:1.8rem;"><span class="t-border">durch automatische Klappenschlie&szlig;ung und einfache Reinigung</span></span></div>
+</span>
+</div>
+</div>
+</div>
+<div class="row"style=' padding-bottom: 3rem; min-height: 0;'>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span class="t-white"><span style="font-size:2.4rem;">DASHBOARD</span></span></h2><div style="text-align: center;"><span class="t-border"><span style="font-size:1.8rem;">Preise &amp; Best&auml;nde online einsehen und anpassen</span></span></div>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span class="t-white"><span style="font-size:2.4rem;">INTELLIGENT</span></span></h2><div style="text-align: center;"><span class="t-border"><span style="font-size:1.8rem;">autonome F&uuml;llstandskontrolle und Produkterkennung</span></span></div>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span class="t-white"><span style="font-size:2.4rem;">INTEGRIERT</span></span></h2><div style="text-align: center;"><span style="font-size:1.8rem;"><font color="#aeaeae">Kundenbindung an bestimmtes Pfandboxsystem m&ouml;glich</font></span></div>
+</span>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span class="t-white"><span style="font-size:2.4rem;">SMART</span></span></h2><div style="text-align: center;"><span class="t-border"><span style="font-size:1.8rem;">Bezahlung durch App und Anbindung an Ihre Systeme m&ouml;glich</span></span></div>
+</span>
+</div>
+</div>
+</div>
+<div class="row d-lg-none"style=''>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+style="display: flex; align-items: above; padding-right: 2rem!important;  margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<div style="text-align: center;"><span class="t-border"><span class="t-lightgrey">_____________________________________________________</span></span></div>
+</span>
+</div>
+</div>
+</div>
+<div class="row"style=' padding-top: 2rem; min-height: 0;'>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<h2 style="text-align: center;"><span style="font-size:3.2rem;">SCHRITT-F&Uuml;R-SCHRITT ANWENDUNG</span></h2>
+</span>
+</div>
+</div>
+</div>
+<div class="row d-none d-lg-flex"style=''>
+<div class="col-6 col-md-6 col-lg-3 box-image   image-middle" style="display: flex; align-items: middle; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/md/images/misc/88cf160600f233b4/vlcsnap-2023-03-21-14h15m45s302.png" alt="vlcsnap-2023-03-21-14h15m45s302" title="vlcsnap-2023-03-21-14h15m45s302">
+</div>
+<div class="col-6 col-md-6 col-lg-3 box-image   image-middle" style="display: flex; align-items: middle; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/md/images/misc/1ec14f790f307e33/MG0299.png" alt="_MG_0299" title="_MG_0299">
+</div>
+<div class="col-6 col-md-6 col-lg-3 box-image   image-middle" style="display: flex; align-items: middle; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/md/images/misc/a1797013a8ed0a3d/MG0353neu.png" alt="_MG_0353neu" title="_MG_0353neu">
+</div>
+<div class="col-6 col-md-6 col-lg-3 box-image   image-middle" style="display: flex; align-items: middle; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/md/images/misc/c3c415d8b006fe17/VidarDispenserjpg.jpg" alt="Vidar_Dispenserjpg" title="Vidar_Dispenserjpg">
+</div>
+</div>
+<div class="row d-none d-lg-flex"style=' padding-bottom: 3rem; min-height: 0;'>
+<div class="col-6 col-md-6 col-lg-3 box-text  "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<h2>1. Schritt</h2>
+<div style="text-align: justify;"><span class="t-border">Eine benutzerfreundliche Oberfl&auml;che mit einer einfachen Bedienung, erm&ouml;glicht es, die gew&uuml;nschte Menge des Produkts leicht anzupassen.</span></div>
+</span>
+</div>
+</div>
+<div class="col-6 col-md-6 col-lg-3 box-text  "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<h2>2. Schritt</h2>
+<div style="text-align: justify;"><span class="t-border"><span class="t-border">Die Auswahl des gew&uuml;nschten Gewichts oder Preises wird per Knopfdruck best&auml;tigt.</span></span></div>
+</span>
+</div>
+</div>
+<div class="col-6 col-md-6 col-lg-3 box-text  "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<h2>3. Schritt</h2>
+<div style="text-align: justify;"><span class="t-border">Nachdem ein beliebiger Beh&auml;lter platziert wurde, &ouml;ffnet sich die Klappe auf Knopfdruck automatisch, und das Abf&uuml;llen beginnt.<br />Die Bef&uuml;llung erfolgt bis zur gew&uuml;nschten Menge, woraufhin sich die Klappe automatisch wieder schlie&szlig;t.</span></div>
+</span>
+</div>
+</div>
+<div class="col-6 col-md-6 col-lg-3 box-text  "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<h2>4. Schritt</h2>
+<div style="text-align: justify;"><span class="t-border">Ein externer Drucker erzeugt einen Kassenzettel mit dem Barcode der abgef&uuml;llten Produkte.<br />Alternativ besteht die M&ouml;glichkeit, die Zahlung direkt &uuml;ber eine App abzuwickeln.</span></div>
+</span>
+</div>
+</div>
+</div>
+<div class="row d-lg-none"style=''>
+<div class="col-6 col-md-6 col-lg-6 box-image   image-middle" style="display: flex; align-items: above; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/lg/images/misc/88cf160600f233b4/vlcsnap-2023-03-21-14h15m45s302.png" alt="vlcsnap-2023-03-21-14h15m45s302" title="vlcsnap-2023-03-21-14h15m45s302">
+</div>
+<div class="col-6 col-md-6 col-lg-6 box-image   image-middle" style="display: flex; align-items: above; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/lg/images/misc/1ec14f790f307e33/MG0299.png" alt="_MG_0299" title="_MG_0299">
+</div>
+</div>
+<div class="row d-lg-none"style=''>
+<div class="col-6 col-md-6 col-lg-6 box-text  "
+style="display: flex; align-items: above; padding-left: 1rem!important;padding-right: 1rem!important;  margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<h2>1. Schritt</h2>
+<span class="t-border">Eine benutzerfreundliche Oberfl&auml;che mit einer einfachen Bedienung, erm&ouml;glicht es, die gew&uuml;nschte Menge des Produkts leicht anzupassen.</span>
+</span>
+</div>
+</div>
+<div class="col-6 col-md-6 col-lg-6 box-text  "
+style="display: flex; align-items: above; padding-left: 1rem!important;padding-right: 1rem!important;  margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<h2>2. Schritt</h2>
+<div style="text-align: justify;"><span class="t-border">Die Auswahl des gew&uuml;nschten Gewichts oder Preises wird per Knopfdruck best&auml;tigt.</span></div>
+</span>
+</div>
+</div>
+</div>
+<div class="row d-lg-none"style=''>
+<div class="col-6 col-md-6 col-lg-6 box-image   image-middle" style="display: flex; align-items: above; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/lg/images/misc/a1797013a8ed0a3d/MG0353neu.png" alt="_MG_0353neu" title="_MG_0353neu">
+</div>
+<div class="col-6 col-md-6 col-lg-6 box-image   image-middle" style="display: flex; align-items: above; background-image: url(''); background-position: ; padding-left: 1rem;padding-right: 1rem;  margin-left: auto; margin-right: auto;"  >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/lg/images/misc/c3c415d8b006fe17/VidarDispenserjpg.jpg" alt="Vidar_Dispenserjpg" title="Vidar_Dispenserjpg">
+</div>
+</div>
+<div class="row d-lg-none"style=''>
+<div class="col-6 col-md-6 col-lg-6 box-text  "
+style="display: flex; align-items: above; padding-left: 1rem!important;padding-right: 1rem!important;  margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<h2>3. Schritt</h2>
+<div style="text-align: justify;"><span class="t-border">Nachdem ein beliebiger Beh&auml;lter platziert wurde, &ouml;ffnet sich die Klappe auf Knopfdruck automatisch, und das Abf&uuml;llen beginnt.<br />Die Bef&uuml;llung erfolgt bis zur gew&uuml;nschten Menge, woraufhin sich die Klappe automatisch wieder schlie&szlig;t.</span></div>
+</span>
+</div>
+</div>
+<div class="col-6 col-md-6 col-lg-6 box-text  "
+style="display: flex; align-items: above; padding-left: 1rem!important;padding-right: 1rem!important;  margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<h2>4. Schritt</h2>
+<div style="text-align: justify;"><span class="t-border">Ein externer Drucker erzeugt einen Kassenzettel mit dem Barcode der abgef&uuml;llten Produkte.<br />Alternativ besteht die M&ouml;glichkeit, die Zahlung direkt &uuml;ber eine App abzuwickeln.</span></div>
+</span>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style=' padding-top: 2rem; padding-bottom: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<div style="text-align: center;"><span class="t-darkgrey"><strong><span style="font-size:3.2rem;">DIE WICHTIGSTEN MERKMALE IM &Uuml;BERBLICK</span></strong></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg" id="vidar"style='margin-top: 0rem; padding-top: 0rem; padding-bottom: 6rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-image t-darkgrey  image-middle" >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/xl/images/9f90449f426c4401/Vidar-Dispenser-German-Black-Labels.png" alt="Vidar-Dispenser-German-Black-Labels" title="Vidar-Dispenser-German-Black-Labels">
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-black-o100 full-width-bg"style='margin-top: 0rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<h2 style="text-align: center;"><span class="t-white"><span style="font-size:3.2rem;">VIDAR EINFACH ERKL&Auml;RT</span></span></h2>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-black-o100 full-width-bg"style='margin-top: 0rem; padding-bottom: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12  "
+>
+<div class="responsive-video">
+<iframe data-uc-type="Vimeo" data-uc-src="https://player.vimeo.com/video/823247843?autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-black-o100 full-width-bg"style='margin-top: 0rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-white">&nbsp;</span><span style="font-size:4.0rem;"><a class="btn btn-highlight" href="#kontaktformular">Jetzt kaufen oder mieten</a></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-lg-none"style='margin-top: 6rem; min-height: 0;'>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<div style="text-align: center;">_____________________________________________________</div>
+</span>
+</div>
+</div>
+</div>
+<div class="row"style='margin-top: 8rem; min-height: 0;'>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:500,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<h2 style="text-align: center;"><span class="t-white"><span style="font-size:3.2rem;">DIE VORTEILE F&Uuml;R IHR UNTERNEHMEN</span></span></h2>
+</span>
+</div>
+</div>
+</div>
+<div class="row"style=' min-height: 0;'>
+<div class="col-12 col-md-12 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x48 usergroup t-lightgrey-o"></i>
+</div>                                                   <p><span style="font-size:1.8rem;">KUNDENBINDUNG</span></p>
+</div>
+</div><div class="col-12 col-md-12 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x48 hygienic t-lightgrey-o"></i>
+</div>                                                   <p><span class="t-lightgrey"><span style="font-size:1.8rem;">REDUKTION VON LEBENSMITTELVERSCHWENDUNG</span></span></p>
+</div>
+</div><div class="col-12 col-md-12 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x48 new t-lightgrey-o"></i>
+</div>                                                   <p><span class="t-lightgrey"><span style="font-size:1.8rem;">EINZIGARTIGKEIT</span></span></p>
+</div>
+</div><div class="col-12 col-md-12 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x48 payment-step t-lightgrey-o"></i>
+</div>                                                   <p><span class="t-lightgrey"><span style="font-size:1.8rem;">GEWINNSTEIGERUNG</span></span></p>
+</div>
+</div></div>
+<div class="row  bg-lightgrey-o100 full-width-bg" id="fakten"style='margin-top: 5rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:2.0rem;"><span class="t-border">FAKTEN ZUR AKTUELLEN SITUATION</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-none d-sm-flex  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-6 col-md-6 col-lg-6 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-darkgrey"><strong><span style="font-size:3.6rem;">PROBLEM VERPACKUNGSM&Uuml;LL</span></strong></span></div>
+</span>
+</div>
+</div>
+<div class="col-6 col-md-6 col-lg-6 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-darkgrey"><strong><span style="font-size:3.6rem;">WAS ORGANISATIONEN FORDERN</span></strong></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-none d-sm-flex  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-bottom: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-6 col-md-6 col-lg-3   no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="45" data-counter-steps="10">227</span>
+<span class="ra-counter-value text-bold t-darkgrey" style="font-size: px;">&nbsp;kg</span>
+<h5 class="t-darkgrey"  style="font-size: 18px;">Verpackungsmüll</h5>
+<p><span class="t-darkgrey">in Deutschland pro Kopf im Jahr 2019</span></p>
+</div>
+</div><div class="col-6 col-md-6 col-lg-3   no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="250" data-counter-steps="1">4</span>
+<span class="ra-counter-value text-bold t-darkgrey" style="font-size: px;">&nbsp;kg</span>
+<h5 class="t-darkgrey"  style="font-size: 18px;">pro Kopf</h5>
+<p><span class="t-darkgrey">pro Woche</span></p>
+</div>
+</div><div class="col-6 col-md-6 col-lg-3   no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value text-bold t-darkgrey"style="font-size: px;">ab&nbsp;</span>
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="0" data-counter-steps="0">2022</span>
+<h5 class="t-darkgrey"  style="font-size: 18px;">Pfandpflicht</h5>
+</div>
+</div><div class="col-6 col-md-6 col-lg-3   no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value text-bold t-darkgrey"style="font-size: px;">ab&nbsp;</span>
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="0" data-counter-steps="0">2023</span>
+<h5 class="t-darkgrey"  style="font-size: 18px;">Mehrwegpflicht</h5>
+</div>
+</div></div>
+</div>
+</div>
+<div class="row d-flex d-sm-none  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+style="display: flex; align-items: above; padding-left: 1rem!important;padding-right: 1rem!important;  margin-left: auto; margin-right: auto;">
+<div style="width: 100%;">
+<span>
+<div style="text-align: center;"><span class="t-border"><strong><span class="t-darkgrey"><span style="font-size:3.6rem;">PROBLEM VERPACKUNGSM&Uuml;LL</span></span></strong></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-flex d-sm-none  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-6 col-md-6 col-lg-6 t-darkgrey  no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="45" data-counter-steps="10">227</span>
+<span class="ra-counter-value text-bold t-darkgrey" style="font-size: px;">&nbsp;kg</span>
+<h5 class="t-darkgrey"  style="font-size: 18px;">Verpackungsmüll</h5>
+<p><span class="t-darkgrey">in Deutschland pro Kopf im Jahr 2019</span></p>
+</div>
+</div><div class="col-6 col-md-6 col-lg-6 t-darkgrey  no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="10" data-counter-steps="2">4</span>
+<span class="ra-counter-value text-bold t-darkgrey" style="font-size: px;">kg</span>
+<h5 class="t-darkgrey"  style="font-size: 18px;">pro Kopf</h5>
+<p><span class="t-darkgrey">pro Woche</span></p>
+</div>
+</div></div>
+</div>
+</div>
+<div class="row d-flex d-sm-none  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<div style="text-align: center;"><span class="t-border"><span class="t-darkgrey"><strong><span style="font-size:3.6rem;">WAS ORGANISATIONEN FORDERN</span></strong></span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-flex d-sm-none  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-6 col-md-6 col-lg-6 t-darkgrey  no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value text-bold t-darkgrey"style="font-size: px;">ab</span>
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="0" data-counter-steps="0">2022</span>
+<p><span class="t-darkgrey">Pfandpflicht</span></p>
+</div>
+</div><div class="col-6 col-md-6 col-lg-6 t-darkgrey  no-outer-padding box-counter" style="">
+<div class="counter-inner">
+<span class="ra-counter-value text-bold t-darkgrey"style="font-size: px;">ab</span>
+<span class="ra-counter-value t-darkgrey" style="font-size: 60px;" data-counter-timer="0" data-counter-steps="0">2023</span>
+<p><span class="t-darkgrey"><span class="t-border"><span class="t-special"><span class="t-darkgrey">Mehrwegpflicht</span></span></span></span></p>
+</div>
+</div></div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 1rem; padding-bottom: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-darkgrey"><em><span style="font-size:2.4rem;">&bdquo;Einweg- und Verpackungsprodukte sollten entlang der gesamten Lieferketten in einem verbindlichen Zeitrahmen durch Mehrwegsysteme ersetzt und Mikroplastikanwendungen verboten werden.&ldquo;</span></em></span><br /><br /><br /><br /><span class="t-darkgrey"><strong><span style="font-size:3.6rem;">ZU FOLGENDEN SDGs LEISTEN WIR UNSEREN BEITRAG</span></strong><br /><span style="font-size:2.0rem;">SUSTAINABLE-DEVELOPMENT-GOALS</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 3rem; padding-bottom: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-4 col-lg-4 text-center  bg-black" style=" justify-content: center;">
+<div>
+<a href="https://sdgs.un.org/goals/goal9">
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x96 industries t-confirm"></i>
+</div>                    </a>
+<a href="https://sdgs.un.org/goals/goal9">
+<h2 class="t-white">Nr. 9: Industrie, Innovation & Infrastruktur</h2>
+</a>
+<p><span style="font-size:1.8rem;">Eine belastbare Infrastruktur aufbauen, inklusive und nachhaltige Industrialisierung f&ouml;rdern und Innovationen unterst&uuml;tzen</span></p>
+</div>
+</div><div class="col-12 col-md-4 col-lg-4 text-center t-white bg-confirm-o100" style=" justify-content: center;">
+<div>
+<a href="https://sdgs.un.org/goals/goal12">
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x96 reload t-black"></i>
+</div>                    </a>
+<a href="https://sdgs.un.org/goals/goal12">
+<h2 class="t-darkgrey">Nr. 12: Nachhaltige/r Konsum und Produktion</h2>
+</a>
+<p><span style="font-size:1.8rem;">F&uuml;r nachhaltige Konsum- und Produktionsmuster sorgen</span></p>
+</div>
+</div><div class="col-12 col-md-4 col-lg-4 text-center t-white bg-black-o100" style=" justify-content: center;">
+<div>
+<a href="https://sdgs.un.org/goals/goal13">
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x96 earth t-confirm"></i>
+</div>                    </a>
+<a href="https://sdgs.un.org/goals/goal13">
+<h2 class="t-darkgrey">Nr. 13: Maßnahmen zum Klimaschutz</h2>
+</a>
+<p><span style="font-size:1.8rem;">Umgehend Ma&szlig;nahmen zur Bek&auml;mpfung des Klimawandels und seiner Auswirkungen ergreifen</span></p>
+</div>
+</div></div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-bottom: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:1.5rem;"><a class="btn btn-highlight" href="#kontaktformular">Jetzt Kontakt aufnehmen</a></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-confirm-o100 full-width-bg" id="impact"style='margin-top: 0rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-darkgrey"><span style="font-size:2.0rem;"><span class="t-border">AUF EINEN BLICK</span></span></span><br /><span class="t-white"><strong><span style="font-size:3.6rem;">UNSERE MISSION</span></strong></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-confirm-o100 full-width-bg"style='margin-top: 0rem; padding-top: 3rem; padding-bottom: 5rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background bg-none">           <i class="ra-icon x96 recycled t-white"></i>
+</div>                                    <h2 class="t-white">Förderung von Mehrwegkreisläufen</h2>
+<p><span style="font-size:1.6rem;">Wir etablieren kreislauff&auml;hige Konzepte mit nachf&uuml;llbaren Mehrwegbeh&auml;ltern.</span></p>
+</div>
+</div><div class="col-12 col-md-6 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background without">           <i class="ra-icon x96 sustained t-white"></i>
+</div>                                    <h2>Reduzierung der Lebensmittelverschwendung</h2>
+<p><span style="font-size:1.6rem;">Wir reduzieren das Wegwerfen von Lebensmitteln durch individuelle Einkaufsmengen.</span></p>
+</div>
+</div><div class="col-12 col-md-6 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background without">           <i class="ra-icon x96 earth t-white"></i>
+</div>                                    <h2>Reduzierung von Verpackungsmüll</h2>
+<p><span style="font-size:1.6rem;">Wir verwenden waschbare Mehrwegbeh&auml;lter und reduzieren M&uuml;ll durch Einwegverpackungen.</span></p>
+</div>
+</div><div class="col-12 col-md-6 col-lg-3 text-center  " style=" justify-content: center;">
+<div>
+<div class="ra-icon-box-background without">           <i class="ra-icon x96 bulb-light t-white"></i>
+</div>                                    <h2>Innovation durch Automatisierung</h2>
+<p><span style="font-size:1.6rem;">Wir automatisieren, verbessern und entwickeln Konzepte f&uuml;r mehr Nachhaltigkeit im Alltag.</span></p>
+</div>
+</div></div>
+</div>
+</div>
+<div class="row  bg-confirm-o100 full-width-bg"style='margin-top: 0rem; padding-top: 0rem; padding-bottom: 5rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-4 col-lg-4">
+<div id="ramedia-accordion-e91910ef80ae6d7425f3b1238f1fad4e" class="ramedia-accordion accordion-lightgrey">
+<div class="accordion-group">
+<div class="group-header" id="heading-e91910ef80ae6d7425f3b1238f1fad4e-1">
+<h5 class="mb-0">
+<button data-toggle="collapse" data-target="#collapse-e91910ef80ae6d7425f3b1238f1fad4e-1" aria-expanded="false" class="collapsed" aria-controls="collapse-e91910ef80ae6d7425f3b1238f1fad4e-1">
+<span style="font-size: 1.6rem;">NACHHALTIG IN DIE ZUKUNFT<i class="ra-icon dropdown"></i></span>
+</button>
+</h5>
+</div>
+<div id="collapse-e91910ef80ae6d7425f3b1238f1fad4e-1" class="collapse" aria-labelledby="heading-e91910ef80ae6d7425f3b1238f1fad4e-1" data-parent="#ramedia-accordion-e91910ef80ae6d7425f3b1238f1fad4e">
+<div class="group-body">
+<div class="row"style=''>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:1.6rem;"><span class="t-white">Unsere Mission ist, bestehende Systeme zu automatisieren, komplett neue Konzepte zu entwickeln und mit IoT (Internet of Things) und Industrie 5.0-Elementen die digitale Entwicklung voranzutreiben. Wir entwickeln zun&auml;chst Abf&uuml;llsysteme f&uuml;r verschiedene Produkte, um die Einweg-Transportverpackungen durch Mehrwegverpackungen St&uuml;ck f&uuml;r St&uuml;ck ersetzen zu k&ouml;nnen.<br /><br />Unsere Systeme und Prozesse bestehen aus der Kombination von bestehenden und neu- und weiterentwickelten, innovativen Teilsystemen. Wir hinterfragen Strukturen und Abl&auml;ufe, denken sie neu und wenden sie in neuem Kontext an.<br /><br />Durch die Automatisierung der Systeme leisten wir<br />einen gro&szlig;en Beitrag bei der F&ouml;rderung von Mehrwegkreisl&auml;ufen und dadurch Verpackungsm&uuml;lleinsparungen.<br /><br />An unserer Generation ist es nun das Ruder endg&uuml;ltig rumzurei&szlig;en und immer mehr nachhaltige L&ouml;sungen zu entwickeln und nutzbar zu machen.<br /><br />Wir wollen die Welt durch technische und logistische Innovation zu einem potenziell besseren Ort gestalten!&nbsp;</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-4">
+<div id="ramedia-accordion-7ddccddc9ae2a66536613ab1c908f51b" class="ramedia-accordion accordion-lightgrey">
+<div class="accordion-group">
+<div class="group-header" id="heading-7ddccddc9ae2a66536613ab1c908f51b-1">
+<h5 class="mb-0">
+<button data-toggle="collapse" data-target="#collapse-7ddccddc9ae2a66536613ab1c908f51b-1" aria-expanded="false" class="collapsed" aria-controls="collapse-7ddccddc9ae2a66536613ab1c908f51b-1">
+<span style="font-size: 1.6rem;">  HONEST IMPACT<i class="ra-icon dropdown"></i></span>
+</button>
+</h5>
+</div>
+<div id="collapse-7ddccddc9ae2a66536613ab1c908f51b-1" class="collapse" aria-labelledby="heading-7ddccddc9ae2a66536613ab1c908f51b-1" data-parent="#ramedia-accordion-7ddccddc9ae2a66536613ab1c908f51b">
+<div class="group-body">
+<div class="row"style=''>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:1.6rem;"><span class="t-white">Wir entwickeln smarte L&ouml;sungen f&uuml;r die Automatisierung von Systemen. Der Fokus liegt auf der Entwicklung von offen kommunizierten und verst&auml;ndlichen Systemen, die einen ehrlichen Impact auf die Entwicklung unserer Gesellschaft im Nachhaltigkeitssektor haben.<br /><br />Wir wissen, dass noch nicht alles an unseren Konzepten und Prevact nachhaltig ist, aber das wollen wir transparent kommunizieren und mit gutem Beispiel vorangehen.<br /><br />Unser gro&szlig;es Ziel ist die Hemmschwelle der Nutzung von Mehrwegsystemen bei Kunden und Unternehmen durch Technologie herabzusetzen.</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-4">
+<div id="ramedia-accordion-93dba763ab9dbcdb0c4d3a522ec5039f" class="ramedia-accordion accordion-lightgrey">
+<div class="accordion-group">
+<div class="group-header" id="heading-93dba763ab9dbcdb0c4d3a522ec5039f-1">
+<h5 class="mb-0">
+<button data-toggle="collapse" data-target="#collapse-93dba763ab9dbcdb0c4d3a522ec5039f-1" aria-expanded="false" class="collapsed" aria-controls="collapse-93dba763ab9dbcdb0c4d3a522ec5039f-1">
+<span style="font-size: 1.6rem;">UNSER SHOPKONZEPT<i class="ra-icon dropdown"></i></span>
+</button>
+</h5>
+</div>
+<div id="collapse-93dba763ab9dbcdb0c4d3a522ec5039f-1" class="collapse" aria-labelledby="heading-93dba763ab9dbcdb0c4d3a522ec5039f-1" data-parent="#ramedia-accordion-93dba763ab9dbcdb0c4d3a522ec5039f">
+<div class="group-body">
+<div class="row"style=''>
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:1.6rem;">Du kannst uns mit deinem Einkauf in unserem <a class="highlight" target="_self" href="https://prevact.earth/shop/"><span class="t-rating">Shop</span></a> direkt bei unserer Mission unterst&uuml;tzen!<br /><br />In unserem<span class="t-rating"> </span><a class="highlight" target="_self" href="https://prevact.earth/shop/"><span class="t-rating">Shop</span></a><span class="t-rating"> </span>findest du Produkte, die das Einkaufen unverpackter Ware erleichtern und verbessern. Zudem erm&ouml;glichen wir kleineren Lebensmittell&auml;den, sich f&uuml;r unverpacktes Verkaufen auszustatten.<br /><br />Die Einnahmen aus dem<span class="t-rating"> </span><a class="highlight" target="_self" href="https://prevact.earth/shop/"><span class="t-rating">Shop</span></a><span class="t-rating"> </span>flie&szlig;en zum gr&ouml;&szlig;ten Teil in die Entwicklung unserer innovativen Konzepte und Produkte.<br /><br />Au&szlig;erdem helfen dir unsere aktuellen Produkte deinen Einkaufsalltag schon jetzt simpler, besser und nachhaltiger zu gestalten.<br /><br />Neue, von uns entwickelte Produkte, wirst du als erstes hier in diesem<span class="t-rating"> </span><a class="highlight" target="_self" href="https://prevact.earth/shop/"><span class="t-rating">Shop</span></a><span class="t-rating"> </span>finden k&ouml;nnen.<br /><br /><strong><a target="_self" href="/shop/"><span class="has-bg bg-rating" style="padding:1rem;">Unser Shop</span></a></strong></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 2rem; padding-bottom: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-border"><span class="t-white"><strong><span style="font-size:3.6rem;"><span class="t-special"><span class="t-confirm"><span class="t-border"><span class="t-darkgrey"><span class="t-darkgrey-o"><span class="t-darkgrey">DIE KREISLAUFKONZEPTE</span></span></span></span></span></span></span></strong></span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 0rem; padding-bottom: 2rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+style="display: flex; align-items: above;  ">
+<div style="width: 100%;">
+<span>
+<div style="text-align: justify;"><span class="t-darkgrey-o"><span style="font-size:1.6rem;">Die Vidar-Dispenser verkn&uuml;pfen bestehende Mehrwegsysteme. Wir kooperieren mit Superm&auml;rkten und Produktherstellern, um einen durchg&auml;ngigen Kreislauf zu schaffen. Unsere Mehrwegcontainer werden als Transportverpackung genutzt und wiederverwendet.</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 0rem; padding-bottom: 5rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-image t-darkgrey  image-middle" >
+<img class="img-fluid pointer-events-none ra-lazy-img" src="https://prevact.earth/img/loading/FFFFFF/560/560" data-ra-src="/cdn/xl/banner/5dd6f2085d78c0d8/prevact-kreislaufkonzepte-transparent.png" alt="prevact-kreislaufkonzepte-transparent" title="prevact-kreislaufkonzepte-transparent">
+</div>
+</div>
+</div>
+</div>
+<div class="row d-none d-sm-flex hasBgImage full-width-bg parallaxBg" id="Bestseller"style='margin-top: 0rem; padding-top: 0rem; padding-bottom: 0rem;background-position:center; min-height: 30;'data-vspeed='-69' data-hspeed='0' data-lazy-bg-img="/cdn/xxl/images/misc/85ef56acb356c499/pexels-sarah-chai-7263016-q.jpg"><div class="bg-layer" style="opacity: 0.5";></div>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+style=" padding-top: 10rem!important;padding-bottom: 10rem!important;  margin-left: auto; margin-right: auto;" data-elementanimation='{&quot;type&quot;:&quot;fade&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;duration&quot;:3080,&quot;delay&quot;:0,&quot;opacity&quot;:50,&quot;speedCurve&quot;:&quot;linear&quot;,&quot;repeating&quot;:&quot;false&quot;,&quot;offset&quot;:0}'>
+<div>
+<span>
+<div style="text-align: center;"><font color="#ffffff"><span style="font-size: 128px;">BESTSELLER</span></font><br /><span style="font-size:2.8rem;"><strong><a class="highlight" target="_self" href="/shop/"><span class="t-white">Einkaufen nachhaltig gestalten &raquo;&nbsp;</span></a></strong></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-flex d-sm-none hasBgImage full-width-bg"style='margin-top: 0rem; padding-top: 0rem; padding-bottom: 3rem;background-position:center; min-height: 0;' data-lazy-bg-img="/cdn/xxl/images/misc/85ef56acb356c499/pexels-sarah-chai-7263016-q.jpg">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+style=" padding-top: 5rem!important;  margin-left: auto; margin-right: auto;">
+<div>
+<span>
+<h2 style="text-align: center;"><span style="font-size:4.0rem;"><span class="t-white">BESTSELLER</span></span><br /><br /><a class="btn btn-lightgrey" target="_self" href="/shop/">Einkaufen nachhaltig gestalten&nbsp;</a><br />&nbsp;</h2>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-black-o100 full-width-bg"style='margin-top: 0rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-confirm"><span class="t-white"><span class="t-darkgrey"><span style="font-size:2.0rem;"><span class="t-border">JETZT ZUSCHLAGEN</span></span></span></span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-black-o100 full-width-bg"style='margin-top: 0rem; padding-bottom: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12  "
+>
+<div class="row" style="display: flex; justify-content: ;">
+<h2></h2>        </div>
+<div class="cms-slider article-slider">
+<div class="row">
+<div class="chevron-toggle-left">
+<i class="cms-slider-left ra-icon chevron-left"></i>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/plakat-tischstaender-kavero-aus-holz-53-0465-1.html"
+onclick=" ga4ArticleItemClick('', '53.0465.1', 'Plakat-Tischständer „Kavero“ aus Holz', '', 'Produkte aus Holz', 0, '');">
+<div class="product-item-inner">
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r5304651-01/plakat-tischstaender-kavero-aus-holz-53.0465.1-1.jpg" alt="Plakat-Tischständer „Kavero“ aus Holz" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r5304651-01/plakat-tischstaender-kavero-aus-holz-53.0465.1-1.jpg" alt="Plakat-Tischständer „Kavero“ aus Holz" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+<div class="ribbon sustained" title="Nachhaltig">
+<span class="sustained-icon"><i class="ra-icon sustained"></i></span>
+</div>
+<div class="ribbon-triangle"></div>
+</div>
+<p class="product-item-title" title="Plakat-Tischständer „Kavero“ aus Holz">Plakat-Tischständer „Kavero“ aus Holz</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/food-spender-mit-aufhaengung-19559.html"
+onclick=" ga4ArticleItemClick('', '19559', 'Food-Spender mit Aufhängung', '', 'Weitere Spender für Unverpacktes', 0, '');">
+<div class="product-item-inner">
+<div class="product-variants-count">
+3 Varianten
+</div>
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r650189-01/food-spender-mit-aufhaengung-19559-1.jpg" alt="Food-Spender mit Aufhängung" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r650189-01/food-spender-mit-aufhaengung-19559-1.jpg" alt="Food-Spender mit Aufhängung" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+<div class="ribbon sustained" title="Nachhaltig">
+<span class="sustained-icon"><i class="ra-icon sustained"></i></span>
+</div>
+<div class="ribbon-triangle"></div>
+</div>
+<p class="product-item-title" title="Food-Spender mit Aufhängung">Food-Spender mit Aufhängung</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/regalkorb-mit-vordereinsicht-hoch-40-0005-10.html"
+onclick=" ga4ArticleItemClick('', '40.0005.10', 'Regalkorb mit Vordereinsicht, hoch', '', 'Verpackungsarmes Aufbewahren', 0, '');">
+<div class="product-item-inner">
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r40000514-03/regalkorb-mit-vordereinsicht-hoch-40.0005.10-1.jpg" alt="Regalkorb mit Vordereinsicht, hoch" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r40000514-03/regalkorb-mit-vordereinsicht-hoch-40.0005.10-1.jpg" alt="Regalkorb mit Vordereinsicht, hoch" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+<div class="ribbon sustained" title="Nachhaltig">
+<span class="sustained-icon"><i class="ra-icon sustained"></i></span>
+</div>
+<div class="ribbon-triangle"></div>
+</div>
+<p class="product-item-title" title="Regalkorb mit Vordereinsicht, hoch">Regalkorb mit Vordereinsicht, hoch</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/spender-mit-schaufel-8l-65-0187-3.html"
+onclick=" ga4ArticleItemClick('', '65.0187.3', 'Spender mit Schaufel 8L', '', 'Weitere Spender für Unverpacktes', 0, '');">
+<div class="product-item-inner">
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r6501873-01/spender-mit-schaufel-8l-65.0187.3-1.jpg" alt="Spender mit Schaufel 8L" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r6501873-01/spender-mit-schaufel-8l-65.0187.3-1.jpg" alt="Spender mit Schaufel 8L" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+<div class="ribbon sustained" title="Nachhaltig">
+<span class="sustained-icon"><i class="ra-icon sustained"></i></span>
+</div>
+<div class="ribbon-triangle"></div>
+</div>
+<p class="product-item-title" title="Spender mit Schaufel 8L">Spender mit Schaufel 8L</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/koziol-eierbox-eggs-to-go-18048.html"
+onclick=" ga4ArticleItemClick('', '18048', 'Koziol Eierbox „Eggs to go”', '', 'Zusätzliche Helferlein', 0, '');">
+<div class="product-item-inner">
+<div class="product-variants-count">
+12 Varianten
+</div>
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r402071-03i/koziol-eierbox-eggs-to-go-18048-1.jpg" alt="Koziol Eierbox „Eggs to go”" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r402071-03i/koziol-eierbox-eggs-to-go-18048-1.jpg" alt="Koziol Eierbox „Eggs to go”" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+</div>
+<p class="product-item-title" title="Koziol Eierbox „Eggs to go”">Koziol Eierbox „Eggs to go”</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/shopper-basket-faltbarer-einkaufskorb-aus-stoff-9910.html"
+onclick=" ga4ArticleItemClick('', '9910', 'Shopper „BASKET” - faltbarer Einkaufskorb aus Stoff', '', 'Nachhaltige Einkaufskörbe', 0, '');">
+<div class="product-item-inner">
+<div class="product-variants-count">
+7 Varianten
+</div>
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r4000892-01/shopper-basket--faltbarer-einkaufskorb-aus-stoff-9910-1.jpg" alt="Shopper „BASKET” - faltbarer Einkaufskorb aus Stoff" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r4000892-01/shopper-basket--faltbarer-einkaufskorb-aus-stoff-9910-1.jpg" alt="Shopper „BASKET” - faltbarer Einkaufskorb aus Stoff" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+</div>
+<p class="product-item-title" title="Shopper „BASKET” - faltbarer Einkaufskorb aus Stoff">Shopper „BASKET” - faltbarer Einkaufskorb aus Stoff</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/einkaufskorb-shopping-aus-weide-geflochten-40-0954-2.html"
+onclick=" ga4ArticleItemClick('', '40.0954.2', 'Einkaufskorb „Shopping” aus Weide, geflochten', '', 'Nachhaltige Einkaufskörbe', 0, '');">
+<div class="product-item-inner">
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r4009542-02/einkaufskorb-shopping-aus-weide-geflochten-40.0954.2-1.jpg" alt="Einkaufskorb „Shopping” aus Weide, geflochten" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r4009542-02/einkaufskorb-shopping-aus-weide-geflochten-40.0954.2-1.jpg" alt="Einkaufskorb „Shopping” aus Weide, geflochten" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+<div class="ribbon sustained" title="Nachhaltig">
+<span class="sustained-icon"><i class="ra-icon sustained"></i></span>
+</div>
+<div class="ribbon-triangle"></div>
+</div>
+<p class="product-item-title" title="Einkaufskorb „Shopping” aus Weide, geflochten">Einkaufskorb „Shopping” aus Weide, geflochten</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="cms-slider-item">
+<a class="product-item" href="https://prevact.earth/aufbewahrungskorb-vollweide-19540.html"
+onclick=" ga4ArticleItemClick('', '19540', 'Aufbewahrungskorb Vollweide', '', 'Nachhaltige Einkaufskörbe', 0, '');">
+<div class="product-item-inner">
+<div class="product-variants-count">
+2 Varianten
+</div>
+<div class="product-img-wrapper">
+<img src="https://prevact.earth/img/loading/EEEEEE/187/187" class="ra-lazy-img disable-visual-search" data-ra-src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r4000064-01/aufbewahrungskorb-vollweide-19540-1.jpg" alt="Aufbewahrungskorb Vollweide" height="225" width="225" />
+<noscript>
+<img class="img-fluid disable-visual-search" src="https://prevact.earth/out/pictures/generated/product/1/187_187_75/r4000064-01/aufbewahrungskorb-vollweide-19540-1.jpg" alt="Aufbewahrungskorb Vollweide" height="225" width="225" />
+</noscript>
+</div>
+<div class="ribbons">
+<div class="ribbon sustained" title="Nachhaltig">
+<span class="sustained-icon"><i class="ra-icon sustained"></i></span>
+</div>
+<div class="ribbon-triangle"></div>
+</div>
+<p class="product-item-title" title="Aufbewahrungskorb Vollweide">Aufbewahrungskorb Vollweide</p>
+<div class="product-item-overtitle-info">
+</div>
+<div class="pricebox">
+<i>Preis auf Anfrage</i>
+</div>
+</div>
+</a>
+</div>
+<div class="chevron-toggle-right">
+<i class="cms-slider-right ra-icon chevron-right"></i>
+</div>
+<div class="cms-slider-indicators"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg" id="ueberuns"style='margin-top: 0rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:2.0rem;"><span class="t-border">STETS NEUGIERIG</span></span><br /><span class="t-darkgrey"><strong><span style="font-size:3.6rem;">&Uuml;BER UNS</span></strong></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-darkgrey"><span style="font-size:1.8rem;">Unser Name &quot;<strong>Prevact</strong> - <strong>Prev</strong>entive <strong>Act</strong>ion&quot; spiegelt unser Bestreben wider, pr&auml;ventive L&ouml;sungen zur<br />Verhinderung von Ressourcenverschwendung zu entwickeln. Unsere intelligenten Technologien f&ouml;rdern<br />nachhaltiges Einkaufen und eine effizientere Ressourcennutzung f&uuml;r eine bessere Zukunft.</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:2.0rem;"><span class="t-border">TEAMWORK MAKES THE DREAM WORK</span></span><br /><strong><span class="t-darkgrey"><span style="font-size:3.6rem;">UNSERE PARTNER</span></span></strong></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 "
+>
+<div class="text-center">
+<a href="https://www.berlin.de" target="_blank">
+<img border="0" alt="berlin" src="/cdn/master/images/icons/ce9361abec73504c.png" height="50" style="padding-left:5px;padding-right:5px;margin-top:15px">
+</a>
+<a href="https://www.startup-incubator.berlin" target="_blank">
+<img border="0" alt="startup" src="/cdn/master/images/icons/9e25bd41076fb415.png" height="50" style="padding-left:5px;padding-right:5px;margin-top:15px" >
+</a>
+<a href="https://www.hwr-berlin.de" target="_blank">
+<img border="0" alt="hwr-berlin" src="/cdn/master/images/icons/dda62efca9b3ff6b.png" height="50" style="padding-left:5px;padding-right:5px;margin-top:15px" ></a>
+<a href="https://european-union.europa.eu/" target="_blank">
+<img border="0" alt="esf" src="/cdn/master/images/icons/dd40b1954f92a09f.png" height="50" style="padding-left:5px;padding-right:5px;margin-top:15px"></a>
+<a href="https://www.esf.de/portal/DE/Startseite/inhalt.html" target="_blank">
+<img border="0" alt="esf" src="/cdn/master/images/icons/35483202cff60409.png" height="50" style="padding-left:5px;padding-right:5px;margin-top:15px"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-top: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span class="t-darkgrey"><span style="font-size:2.0rem;">Zudem unterst&uuml;tzt uns die VKF Renzel GmbH als starker Partner.</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-none d-sm-flex  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12  t-darkgrey "
+>
+<div class="text-center"> 
+<a href="https://www.vkf-renzel.de/" target="_blank"> <img border="0" alt="vkf-renzel-logo" src="/cdn/master/images/a591f2267bec4ba2.png" height="78" ></a> 
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-flex d-sm-none  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12  t-darkgrey "
+>
+<div class="text-center"> 
+<a href="https://www.vkf-renzel.de/" target="_blank"> <img border="0" alt="vkf-renzel-logo" src="/cdn/master/images/a591f2267bec4ba2.png" height="58" ></a> 
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-lightgrey-o100 full-width-bg"style='margin-top: 0rem; padding-bottom: 3rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text t-darkgrey "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:1.5rem;"><span class="t-darkgrey">Heinz Renzel ist nicht nur unser Mitgr&uuml;nder und Investor, sondern auch ein leidenschaftlicher Mentor.<br /><br />Zusammen mit Heinz Renzel und der VKF-Renzel GmbH er&ouml;ffnen sich einzigartige M&ouml;glichkeiten zur Optimierung<br />von Technologie und Produktion. Unser gemeinsames Ziel ist es, hochwertige und nachhaltige L&ouml;sungen f&uuml;r<br />unverpacktes Einkaufen einer breiteren Verbraucherschaft zug&auml;nglich zu machen. Dank der Kooperation mit VKF-<br />Renzel GmbH sch&ouml;pfen wir aus &uuml;ber 35 Jahren umfassender Erfahrung im gesamten Spektrum der Verkaufsf&ouml;rderung.</span></span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-black-o100 full-width-bg" id="kontaktformular"style=' padding-top: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 box-text  "
+>
+<div>
+<span>
+<div style="text-align: center;"><span style="font-size:3.6rem;">KONTAKTFORMULAR</span></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row  bg-black-o100 full-width-bg"style='margin-top: 0rem; padding-bottom: 0rem; min-height: 0;'>
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 "
+>
+<form action="/index.php?cl=racmsreceiver" id="ra-cms-form-racontactform" method="post" class="racaptcha-init" enctype="multipart/form-data">
+<input type="hidden" name="actcontrol" value="start" />
+<div id='raform-racontactform' class='raform-outer' raform-app data-first-ident='main'>
+<input type="hidden" name="raform_ident[]" ref="identField" value="racontactform">
+<div class='raform-group-box'>
+<div class='raform-ident raform-ident-main' v-if='ident == "main"'>
+<input type="hidden" name="csrf_token" value="6bfeb1e7d10853fe265af73f20ed80b86a6111a87a022931d85bb0c3f0af2806" />
+<div class='row'>
+<div class='form-group form-group-type-text col-12  ' v-if='!hiddenFields["racontactform-raform-field-0"]'>
+<label
+ra-remove-req-on-created
+class="req"
+:class='{ req: requiredFields["racontactform-raform-field-0"] }'
+for="racontactform-raform-field-0">Name<span v-cloak v-if='requiredFields["racontactform-raform-field-0"]'>*</span><span ra-hide-on-created>*</span>
+</label>
+<input
+type="text"
+name="editval[oxuser__oxlname]"
+id="racontactform-raform-field-0"
+ref="racontactform-raform-field-0"
+class="form-control"
+v-model="form.oxuser__oxlname"
+v-on:blur="checkValidity"
+v-on:keyup="removeValidationClasses"
+value=""
+required="required"        :required='requiredFields["racontactform-raform-field-0"]'
+:pattern='fieldPattern["racontactform-raform-field-0"]'
+>
+<i class='validation-icon invalid  ra-icon cross'></i>
+<i class='validation-icon valid  ra-icon check-circle'></i>
+</div>
+<div class='form-group form-group-type-text col-12  ' v-if='!hiddenFields["racontactform-raform-field-1"]'>
+<label
+ra-remove-req-on-created
+class=""
+:class='{ req: requiredFields["racontactform-raform-field-1"] }'
+for="racontactform-raform-field-1">Firma<span v-cloak v-if='requiredFields["racontactform-raform-field-1"]'>*</span><span ra-hide-on-created></span>
+</label>
+<input
+type="text"
+name="editval[oxuser__oxcompany]"
+id="racontactform-raform-field-1"
+ref="racontactform-raform-field-1"
+class="form-control"
+v-model="form.oxuser__oxcompany"
+v-on:blur="checkValidity"
+v-on:keyup="removeValidationClasses"
+value=""
+:required='requiredFields["racontactform-raform-field-1"]'
+:pattern='fieldPattern["racontactform-raform-field-1"]'
+>
+<i class='validation-icon invalid  ra-icon cross'></i>
+<i class='validation-icon valid  ra-icon check-circle'></i>
+</div>
+<div class='form-group form-group-type-email col-12  ' v-if='!hiddenFields["racontactform-raform-field-2"]'>
+<label
+ra-remove-req-on-created
+class="req"
+:class='{ req: requiredFields["racontactform-raform-field-2"] }'
+for="racontactform-raform-field-2">E-Mail<span v-cloak v-if='requiredFields["racontactform-raform-field-2"]'>*</span><span ra-hide-on-created>*</span>
+</label>
+<input
+type="email"
+name="editval[oxuser__oxusername]"
+id="racontactform-raform-field-2"
+ref="racontactform-raform-field-2"
+class="form-control"
+v-model="form.oxuser__oxusername"
+v-on:blur="checkValidity"
+v-on:keyup="removeValidationClasses"
+value=""
+required="required"        :required='requiredFields["racontactform-raform-field-2"]'
+:pattern='fieldPattern["racontactform-raform-field-2"]'
+>
+<i class='validation-icon invalid  ra-icon cross'></i>
+<i class='validation-icon valid  ra-icon check-circle'></i>
+</div>
+<div class='form-group form-group-type-textarea col-12  ' v-if='!hiddenFields["racontactform-raform-field-3"]'>
+<label
+ra-remove-req-on-created
+class="req"
+:class='{ req: requiredFields["racontactform-raform-field-3"] }'
+for="racontactform-raform-field-3">Nachricht<span v-cloak v-if='requiredFields["racontactform-raform-field-3"]'>*</span><span ra-hide-on-created>*</span>
+</label>
+<textarea
+        name="editval[msg]"
+        id="racontactform-raform-field-3"
+        ref="racontactform-raform-field-3"
+                class="form-control"
+        v-model="form.msg"
+        required="required"        :required='requiredFields["racontactform-raform-field-3"]'
+                                ></textarea>
+</div>
+<div class='form-group form-group-type-checkbox col-12  ' v-if='!hiddenFields["racontactform-raform-field-4"]'>
+<label for="racontactform-raform-field-4" class="form-label">
+<input
+type="checkbox"
+id="racontactform-raform-field-4"
+ref="racontactform-raform-field-4"
+name="editval[racopy]"
+v-model="form.racopy"
+value="on"
+:required='requiredFields["racontactform-raform-field-4"]'>
+<div>
+Kopie an mich senden
+</div>
+</label>
+</div>
+<input type='hidden' name='formValueHashes[racontactform]' value='d41d8cd98f00b204e9800998ecf8427e' /></div></div>
+</div>
+</div><script>if(typeof window.RAFORM_DATA === "undefined") { window.RAFORM_DATA = []; } window.RAFORM_DATA["raform-racontactform"] = {"ident":"","confirmForm":false,"form":{"oxuser__oxlname":"","oxuser__oxcompany":"","oxuser__oxusername":"","msg":""},"requiredFields":{"racontactform-raform-field-0":true,"racontactform-raform-field-1":false,"racontactform-raform-field-2":true,"racontactform-raform-field-3":true,"racontactform-raform-field-4":false},"hiddenFields":{"racontactform-raform-field-0":false,"racontactform-raform-field-1":false,"racontactform-raform-field-2":false,"racontactform-raform-field-3":false,"racontactform-raform-field-4":false},"fieldPattern":{"racontactform-raform-field-0":null,"racontactform-raform-field-1":null,"racontactform-raform-field-2":null,"racontactform-raform-field-3":null,"racontactform-raform-field-4":null},"formRules":[],"desiredRuleSettings":[],"desiredHiddenSettings":[],"customAttrMaxCount":false,"submitEvent":false};</script>
+<div class="col-12 security-info">
+Mit dem Senden der Daten wird uns bestätigt, die <a class="highlight" href="https://prevact.earth/datenschutz/">Datenschutzhinweise</a> zur Kenntnis genommen zu haben und sich damit einverstanden zu erklären, dass die angegebenen Daten elektronisch erhoben und gespeichert werden. Alle Daten werden dabei nur zweckgebunden genutzt.
+</div>
+<div class="text-center">
+<input type="submit" id="ra-form-submit-btn-racontactform" class="btn btn-highlight" value="Absenden">
+<script src="https://prevact.earth/modules/ra/captcha/out/src/js/altcha-i18n.min.js" type="module"></script><script async defer src="https://prevact.earth/modules/ra/captcha/out/src/js/altcha.min.js" type="module"></script><altcha-widget challengejson="{&quot;algorithm&quot;:&quot;SHA-256&quot;,&quot;challenge&quot;:&quot;19e87a709ba66bc7d6e5a4b393f44e12f4ed67792299a342b5e2c740cfb698d1&quot;,&quot;maxNumber&quot;:150000,&quot;salt&quot;:&quot;fb05c28af8869c4df233e44a?expires=1756831419&quot;,&quot;signature&quot;:&quot;f51dd8c050d421a265a33046c71a1d3673b28f35ecf4c496d6cf4da4759d3867&quot;}" floating floatinganchor="#ra-form-submit-btn-racontactform" auto="onsubmit"></altcha-widget>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>    </div>
+</div>
+</div>
+<div class="col-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mobile-menu-app" data-custommenuident="41c94ef0baa8d5be7484779a44d33e91">
+<div class="mobile-header">
+<div class="row">
+<div class="col-6">
+<div class="go-back-button hidden" onclick="goBackInMobileMenu();">
+<i class="ra-icon chevron-left"></i> <b>Zurück</b>
+</div>
+</div>
+<div class="col-6">
+<div class="text-right">
+<span class="close-btn">
+Menü schließen <i class="ra-icon cross"></i>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mobile-menu-inner">
+<div class="mobile-menu-language-list mobile-menu-box">
+<ul>
+<li>
+<a class="mobile-language-select-item" title="Deutsch" href="https://prevact.earth/index.php?cl=start" hreflang="de">
+<i class="flag-icon flag-icon-de"></i>
+<div class="active">
+<i class="ra-icon check"></i>
+</div>
+</a>
+<a class="mobile-language-select-item" title="English" href="https://prevact.earth/index.php?cl=start&amp;lang=1" hreflang="gb" onclick="econdaMarker('topbar/language/gb');">
+<i class="flag-icon flag-icon-gb"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="mobile-menu-currency-list mobile-menu-box">
+</div>
+<div class="mobile-menu-vat-switch mobile-menu-box">
+</div>
+<div class="mobile-menu-list custom-menu mobile-menu-box"></div>
+<div class="mobile-menu-top-btn mobile-menu-box">
+<script>
+                var viewcontentpagetranslation = 'Seite anzeigen';
+            </script>
+<ul>
+<li class="bg-lightgrey-o">
+<a href="#" class="to-category-btn hidden">
+<div class="row">
+<div class="col-12">
+<b></b>
+</div>
+</div>
+</a>
+</li>
+<li>
+<a href="#" class="all-products-btn">
+<div class="row">
+<div class="col-12">
+<b>Alle Produkte anzeigen</b>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="mobile-menu-list default-menu mobile-menu-box"></div>
+<div class="mobile-menu-additional-entries">
+</div>
+<i class="ra-icon reload mobile-menu-loading"></i>
+</div>
+</div>
+</div>
+<div class="flyout-background-cover"></div>
+</div>
+<footer id="footer" class=" darkFooter fullwidthFooter">
+<div class="container-fluid padding-information-bar">
+<div class="additional-information">
+<div id="accordion" class="d-md-none">
+<div class="card">
+<div class="card-header" id="ra-box-heading-1">
+<p>
+<button class="btn btn-link collapsed" data-toggle="collapse"
+data-target="#ra-box-collapse-1" aria-expanded="false"
+aria-controls="ra-box-collapse-1">
+<span> Fragen an uns</span><i
+class="ra-icon plus"></i><i class="ra-icon minus"></i>
+</button>
+</p>
+</div>
+<div id="ra-box-collapse-1" class="collapse" aria-labelledby="ra-box-heading-1"
+data-parent="#accordion">
+<div class="card-body">
+<div class="col-12 col-md ">
+<span class="footer-header">Fragen an uns?</span>
+<b>Wir sind für Dich da!</b><br>
+<br>
+<table>
+<tr><td>Telefon:</td><td>+49 (0) 30 797 815 46</td></tr>
+<tr><td>E-Mail:</td><td><a href="mailto:kontakt@prevact.earth">kontakt@prevact.earth</td></tr>
+</table>
+<br>
+<p>&copy; 2025 Prevact GmbH. All Rechte vorbehalten.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" id="ra-box-heading-2">
+<p>
+<button class="btn btn-link collapsed" data-toggle="collapse"
+data-target="#ra-box-collapse-2" aria-expanded="false"
+aria-controls="ra-box-collapse-2">
+<span> Informationen</span><i
+class="ra-icon plus"></i><i class="ra-icon minus"></i>
+</button>
+</p>
+</div>
+<div id="ra-box-collapse-2" class="collapse" aria-labelledby="ra-box-heading-2"
+data-parent="#accordion">
+<div class="card-body">
+<div class="col-12 col-md">
+<span class="footer-header">Informationen</span>
+<ul>
+<li><a href="https://prevact.earth/impressum/">Impressum</a></li>
+<li><a href="https://prevact.earth/AGB/">AGB</a></li>
+<li><a href="https://prevact.earth/datenschutz/">Datenschutzhinweise</a></li>
+<li><a href="https://prevact.earth/versandhinweise/">Zahlung und Versand</a></li>
+<li><a href="https://prevact.earth/widerruf/">Widerrufsbelehrung</a></li>
+<li><a href="javascript:openCookieNote();">Cookie Einstellungen</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" id="ra-box-heading-3">
+<p>
+<button class="btn btn-link collapsed" data-toggle="collapse"
+data-target="#ra-box-collapse-3" aria-expanded="false"
+aria-controls="ra-box-collapse-3">
+<span> Sitemap</span><i
+class="ra-icon plus"></i><i class="ra-icon minus"></i>
+</button>
+</p>
+</div>
+<div id="ra-box-collapse-3" class="collapse" aria-labelledby="ra-box-heading-3"
+data-parent="#accordion">
+<div class="card-body">
+<div class="col-12 col-md"> 
+<span class="footer-header">Sitemap</span>
+<ul>
+<li><a href="/#top">Vidar</a></li>
+<li><a href="/#fakten">Fakten</a></li>
+<li><a href="/#impact">Impact</a></li>
+<li><a href="/#ueberuns">Über Uns</a></li>
+<li><a href="/shop">Shop</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" id="ra-box-heading-4">
+<p>
+<button class="btn btn-link collapsed" data-toggle="collapse"
+data-target="#ra-box-collapse-4" aria-expanded="false"
+aria-controls="ra-box-collapse-4">
+<span> Zahlungsarten</span><i
+class="ra-icon plus"></i><i class="ra-icon minus"></i>
+</button>
+</p>
+</div>
+<div id="ra-box-collapse-4" class="collapse" aria-labelledby="ra-box-heading-4"
+data-parent="#accordion">
+<div class="card-body">
+<style>
+@media screen and (min-width: 1196px) {
+.ra-payment-icon { width: 65px; height: 37px; }
+}
+</style>
+<div class="col-12 col-md">
+<span class="footer-header uppercase">Zahlungsarten</span>
+<div class="row mt-4 mt-md-0">
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="visa" src="/cdn/master/images/icons/aaecd99752523f74/visa.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="mastercard" src="/cdn/master/images/icons/99fbff04d24693cd/mastercard.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="amex" src="/cdn/master/images/icons/3441014793125323/amex.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="paypal" src="/cdn/master/images/icons/f43d4115446fe848/paypal.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="vorauskasse" src="/cdn/master/images/icons/b5ae07135c878af9/vorauskasse.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="information-boxes" class="row d-none d-md-flex">
+<div class="col-12 col-md ">
+<span class="footer-header">Fragen an uns?</span>
+<b>Wir sind für Dich da!</b><br>
+<br>
+<table>
+<tr><td>Telefon:</td><td>+49 (0) 30 797 815 46</td></tr>
+<tr><td>E-Mail:</td><td><a href="mailto:kontakt@prevact.earth">kontakt@prevact.earth</td></tr>
+</table>
+<br>
+<p>&copy; 2025 Prevact GmbH. All Rechte vorbehalten.</p>
+</div>
+<div class="col-12 col-md">
+<span class="footer-header">Informationen</span>
+<ul>
+<li><a href="https://prevact.earth/impressum/">Impressum</a></li>
+<li><a href="https://prevact.earth/AGB/">AGB</a></li>
+<li><a href="https://prevact.earth/datenschutz/">Datenschutzhinweise</a></li>
+<li><a href="https://prevact.earth/versandhinweise/">Zahlung und Versand</a></li>
+<li><a href="https://prevact.earth/widerruf/">Widerrufsbelehrung</a></li>
+<li><a href="javascript:openCookieNote();">Cookie Einstellungen</a></li>
+</ul>
+</div>
+<div class="col-12 col-md"> 
+<span class="footer-header">Sitemap</span>
+<ul>
+<li><a href="/#top">Vidar</a></li>
+<li><a href="/#fakten">Fakten</a></li>
+<li><a href="/#impact">Impact</a></li>
+<li><a href="/#ueberuns">Über Uns</a></li>
+<li><a href="/shop">Shop</a></li>
+</ul>
+</div>
+<style>
+@media screen and (min-width: 1196px) {
+.ra-payment-icon { width: 65px; height: 37px; }
+}
+</style>
+<div class="col-12 col-md">
+<span class="footer-header uppercase">Zahlungsarten</span>
+<div class="row mt-4 mt-md-0">
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="visa" src="/cdn/master/images/icons/aaecd99752523f74/visa.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="mastercard" src="/cdn/master/images/icons/99fbff04d24693cd/mastercard.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="amex" src="/cdn/master/images/icons/3441014793125323/amex.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="paypal" src="/cdn/master/images/icons/f43d4115446fe848/paypal.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+<div class="col-3 col-sm-2 col-md-6 col-lg-3 no-padding">
+<img alt="vorauskasse" src="/cdn/master/images/icons/b5ae07135c878af9/vorauskasse.svg" style="margin: 0px 5px 10px 0px;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="search-container">
+<div class="row">
+<div class="col-12 offset-0 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script>
+    var oFlow = oFlow || [];
+    oFlow.i18n =
+        {
+            DD_FORM_VALIDATION_VALIDEMAIL:     "DD_FORM_VALIDATION_VALIDEMAIL",
+            DD_FORM_VALIDATION_PASSWORDAGAIN:  "DD_FORM_VALIDATION_PASSWORDAGAIN",
+            DD_FORM_VALIDATION_NUMBER:         "DD_FORM_VALIDATION_NUMBER",
+            DD_FORM_VALIDATION_INTEGER:        "DD_FORM_VALIDATION_INTEGER",
+            DD_FORM_VALIDATION_POSITIVENUMBER: "DD_FORM_VALIDATION_POSITIVENUMBER",
+            DD_FORM_VALIDATION_NEGATIVENUMBER: "DD_FORM_VALIDATION_NEGATIVENUMBER",
+            DD_FORM_VALIDATION_REQUIRED:       "DD_FORM_VALIDATION_REQUIRED",
+            DD_FORM_VALIDATION_CHECKONE:       "DD_FORM_VALIDATION_CHECKONE"
+        };
+</script>            
+<script type="text/javascript" src="https://prevact.earth/out/ra-theme/src/js/4b186e314958cf5a640bdd0933951588/slider-handler.min.js"></script>
+<script type="text/javascript" src="https://prevact.earth/out/ra-theme/src/js/9dfdccabc033012708c632d5e10f893d/libs.min.js"></script>
+<script type="text/javascript" src="https://prevact.earth/out/ra-theme/src/js/3e0be172939f2a5cce4858d95eb0b582/scripts.min.js"></script>
+<script type="text/javascript" src="https://prevact.earth/out/ra-theme/src/js/pages/c7bc71510bd273ef0cd43ff92c707943/review.js"></script>
+<script type="text/javascript" src="https://prevact.earth/modules/ra/search/out/src/js/1da220abad645ac681a1eb7e9cc8c3ae/suggester.js"></script>
+<script type="text/javascript" src="https://prevact.earth/modules/ra/search/out/src/js/3ea4573b963ca0d2694c66165b0e1850/rasearch.js"></script>
+<script type="text/javascript" src="https://prevact.earth/out/ra-theme/src/js/70c597f18f4c2d1d44a30b8c3c955f68/modules.min.js"></script>
+<script type="text/javascript" src="https://prevact.earth/out/ra-theme/src/js/jquery-validation/localization/65ca9ef8a12ea0156c7f2b159b106a9a/messages_de.min.js"></script>
+<script type="text/javascript" src="https://prevact.earth/out/ra-theme/src/js/7b9e8685995cbf4a6ad08ed63fcb9321/rainquiry.min.js"></script><script type='text/javascript'>var observer = new MutationObserver(function(e) {
+    $('.mobile-menu-additional-entries').show();
+    if ( $('.mobile-menu-top-btn').hasClass('show')) {
+    $('.mobile-menu-additional-entries').hide();
+    }});
+    observer.observe($('.mobile-menu-list')[0], { childList: true });</script>
+<script type="text/javascript">
+                var NOTIFICATION_URL = "prevact.earth";
+            </script>
+<script src="/out/ra-theme/src/js/notification.min.js"></script>
+<form enctype="multipart/form-data" id="inquiry" action="https://prevact.earth/index.php?" method="post" data-origin="cmsbox" onsubmit="sendInquiryForm(this, event); return false;">
+<div class="modal fade" id="inquiryModal" tabindex="-1" role="dialog" aria-labelledby="inquiryModalLabel" aria-hidden="true" data-default-title="Fragen zum Produkt?">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="inquiryModalLabel">Fragen zum Produkt?</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true"><i class="ra-icon cross close-btn"></i></span>
+</button>
+<div class="modal-title-snippet"></div>
+</div>
+<div class="modal-body">
+<div class="inquiry-error-box"></div>
+<div class="inquiry-main-content"></div>
+<div class="loading-overlay">
+<div class="loading-overlay-inner">
+</div>
+<div class="spinner small loading-anim">
+<div class="rect1"></div>
+<div class="rect2"></div>
+<div class="rect3"></div>
+<div class="rect4"></div>
+<div class="rect5"></div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<div class="row">
+<div class="col-12 col-md-6 offset-md-6 footer-col">
+<div class="sendCopy">
+<div class="sendquestion">
+<input type="hidden" name="sentCopy" value="0"/>
+<input class="inquirycheckbox" type="checkbox" id="emailcopy" name="sentCopy" value="1">
+<label for="emailcopy">Kopie an mich senden</label>
+</div>
+</div>
+<button id="inquriry-submit-btn" class="submitButton btn btn-highlight btn-block" type="submit" data-default-text="Frage jetzt senden">
+<span>Frage jetzt senden</span> »
+</button>
+</div>
+</div>
+<div class="loading-overlay">
+<div class="loading-overlay-inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+<div class="modal fade" id="ra-article-review-modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="mobile-order-modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<i class="ra-icon cross close-btn"></i>
+</button>
+</div>
+<div class="modal-body">
+Bestellung zu genannten Konditionen jetzt durchführen?
+</div>
+<div class="modal-footer">
+<div class="container-fluid no-padding row">
+<div class="col-6">
+<button type="submit" form="orderConfirmAgbBottom" class="btn btn-confirm">
+Ja, jetzt bestellen
+</button>
+</div>
+<div class="col-6">
+<button type="button" data-dismiss="modal" class="btn btn-lightgrey">
+Abbrechen
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal -->
+<script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/sw.js')
+                        .then(function(registration) {
+                            //console.log(`Service Worker registered! Scope: ${registration.scope}`);
+                        })
+                        .catch(function(err) {
+                            //console.log(`Service Worker registration failed: ${err}`);
+                        });
+                });
+            }
+        </script>
+<script type="text/javascript">
+        let emosTrackUrl = "";
+
+        if ('' === emosTrackUrl || null === emosTrackUrl) {
+            emosTrackUrl = 'https://trck.vkf-renzel.com';
+        }
+
+        window.emosTrackUrl = emosTrackUrl;
+    </script>
+<div id="jumptotop" class="row">
+<div class="col-3 icon"><i class="ra-icon to-top"></i></div>
+<div class="col-9 text">Nach oben</div>
+</div>
+<div id="tracking-area">
+<div class="cc_statistics_emos_3_container">
+</div>
+</div>
+<div class="modal fade" id="uc-consent-popup" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="uc-modal-headline"></h4>
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">×</span>
+<span class="sr-only">Close</span>
+</button>
+</div>
+<div class="modal-body">
+<span id="uc-modal-text"></span>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" id="uc-modal-more-info-btn">Mehr Informationen</button>
+<button type="button" class="btn btn-highlight" id="uc-modal-accept-btn">Akzeptieren</button>
+</div>
+</div>
+</div>
+</div>
+<script type="text/plain" data-usercentrics="Google Tag Manager">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-NDJNWXLZ');
+    </script>
+<script type="text/javascript">
+    gtag('js', new Date());
+    gtag('config', 'G-VXES1VFPGQ');
+
+            window._gAWID = 'AW-16542108554';
+    
+    function ga4CheckoutBegin() {
+dataLayer.push({ ecommerce: null });
+dataLayer.push({ event: "begin_checkout", ecommerce: {"currency":"EUR","value":0,"items":[]} });
+}
+if(typeof ga4CheckoutBegin !== "undefined") {
+if (document.getElementById('miniBasketToCheckout')) {
+document.getElementById('miniBasketToCheckout').addEventListener('click', ga4CheckoutBegin, false);
+}
+if (document.querySelector('.toCheckoutBtn')) {
+document.querySelector('.toCheckoutBtn').addEventListener('click', ga4CheckoutBegin, false);
+}
+}
+
+    
+    
+    
+    
+    
+    
+    
+    </script>
+<script type="text/plain" data-usercentrics="Google Ads Conversion Tracking">
+    gtag("config", "AW-16542108554");
+
+        gtag("event", "page_view", {"send_to":"AW-16542108554","ecomm_pagetype":"home"});
+
+</script>
+<script>
+    function handle_initUserLike(maximized) {
+        if(typeof initUserLike !== 'undefined') {
+            initUserLike(maximized);
+        } else {
+            showUCConsentModal("Userlike");
+        }
+    }
+</script>
+<script>
+                var tmpDarkMode = true;
+                            toggleDarkMode(true, tmpDarkMode);
+                    </script>
+<script type="text/javascript">
+        window._decimalSeparator = '';
+        window._thousandsSeparator = '';
+        window._priceFormat = {"hide_decimals_if_zero":false,"decimals":"2","decimal_separator":",","thousand_separator":".","currency_sign":"&nbsp;\u20ac","price_format":"[FROM][PRICE][CURRENCY][VATMARKER][UNIT]","vat_marker":"*","from":"&nbsp;<span>ab<\/span>"};
+    </script>
+</body>
+</html>
